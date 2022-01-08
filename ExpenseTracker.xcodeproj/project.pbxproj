@@ -14,6 +14,7 @@
 		189C0B55278968890033C3CC /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C0B54278968890033C3CC /* ExpenseTrackerTests.swift */; };
 		189C0B5F278968890033C3CC /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C0B5E278968890033C3CC /* ExpenseTrackerUITests.swift */; };
 		189C0B61278968890033C3CC /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C0B60278968890033C3CC /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		189C0B6E278968E30033C3CC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189C0B6D278968E30033C3CC /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		189C0B5A278968890033C3CC /* ExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		189C0B5E278968890033C3CC /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		189C0B60278968890033C3CC /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		189C0B6D278968E30033C3CC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				189C0B43278968860033C3CC /* ExpenseTrackerApp.swift */,
+				189C0B6D278968E30033C3CC /* MainView.swift */,
 				189C0B45278968860033C3CC /* ContentView.swift */,
 				189C0B47278968880033C3CC /* Assets.xcassets */,
 				189C0B49278968880033C3CC /* Preview Content */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				189C0B46278968860033C3CC /* ContentView.swift in Sources */,
+				189C0B6E278968E30033C3CC /* MainView.swift in Sources */,
 				189C0B44278968860033C3CC /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
